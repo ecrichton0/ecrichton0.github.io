@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-##Get in touch
+### Get in touch
 you can email me at info [at] ecrichton.com fill out the form below:
 
 <script src="https://js-na3.hsforms.net/forms/embed/341648349.js" defer></script>
