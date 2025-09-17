@@ -1,0 +1,13 @@
+<svg width="100%" height="100%" viewBox="0 0 1440 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fadeGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#295135" />
+      <stop offset="40%" stop-color="#295135" />
+      <stop offset="60%" stop-color="#5a6650" />
+      <stop offset="100%" stop-color="#5a6650" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with sharp gradient transition -->
+  <rect width="100%" height="100%" fill="url(#fadeGradient)" />
+</svg>

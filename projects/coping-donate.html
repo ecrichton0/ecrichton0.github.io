@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap Include-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4df839a672.js" crossorigin="anonymous"></script>
+    <title>Welcome!</title>
+</head>
+<body style="background-color: #295135;">
+    <div class="container-fluid min-vh-100" style="background-image: url('../www-assets/bg3.svg'); background-size: cover;">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="../index.html">Ewan Crichton</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white" href="../projects.html">Projects</a>
+                    <a class="nav-link text-white" href="../contact.html">Contact</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <!--Navbar-->
+        <!--Body-->
+        <div class="d-flex text-white rounded shadow p-5 mx-5 justify-content-center">
+            <div class="d-flex gap-3" style="backdrop-filter: blur(15px);">
+                <img src="../www-assets/donate.png" alt="Screenshot of Donation Site" width="1000px" height="500px" class="rounded">
+            </div>
+        </div>
+        <br>
+        <div class="text-white rounded shadow p-5 mx-5 mb-4" style="backdrop-filter: blur(15px);">
+            <h3>I built a web app</h3>
+            <p class="fs-4">Supporting a local nonprofit</p>
+            <p class="fs-5">
+                Forgive the vagueness of this article however one of the governing principles of information security is "Security by obscurity" so I am mindful not to release too much information about cricital infrastructure.
+                This project, like most, came from a need. While Canada Helps is a great service and helps so many nonprofit with a proccess that is often tedious and ocmplicated, they take 4% of each donation made through their platform.
+                What started this project was the ability to get discounted rates from cred card proccessors for being a registered nonprofit. Standard rates today are around 3%, while we got around 2% from a couple of proccessors. 
+                Wanting to take advantage of this as much as possible, I suggested buling a platform to repalce our use of Canada Helps that uses this proccessor for credit card payments. What was initially jsut going ot be taking payments by card and issue a
+                tax receipt snowballed into a full on Donation management system with the ability to manuall create receipts for different donation types, generation of non charitable receipts, and much more.
+            </p>
+            <p class="fs-5">
+                Overall this project taught me alot about developing as it was my first major project. It also gave me some experience with cloud hosting providers and IaaS platforms for deploying apps. Looking back there are many improvements that could,
+                and probably should be made, but that is a problem for another day...
+            </p>
+            <br>
+            <p class="fs-5">
+                For those interested, The COPING Centre is a nonprofit organization based in Cambridge ON. It supports individuals and familys who have lost by providing bereavement care in the form of group work along with seminars and training's for people
+                in the industry. If you are intereseted, you can vist the website: <a href="https://copingcentre.com">copingcentre.com</a> and read more about what we do :)
+            </p>
+        </div>
+        <!--Body-->
+        <!--Footer-->
+        <div class="container-fluid text-center text-white">
+            <div class="pb-3">
+                &copy; 2025 Ewan Crichton
+            </div>
+        </div>
+        <!--Footer-->
+    </div>
+</body>
+</html>
