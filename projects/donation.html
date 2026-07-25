@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewan Crichton</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/4df839a672.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                <div class="card bg-dark-custom rounded p-5">
+                    <!--Breadcrumb-->
+                    <div>
+                        <span class="fs-6 fs-md-5"><a href="../index.html#projects" class="text-white"><i class="fa-solid fa-arrow-left me-2"></i>Projects</a> / Donation Web App</span>
+                    </div>
+                    <br>
+                    <!-- Images -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-12 col-md-6">
+                            <figure class="text-center mb-0">
+                                <img src="../www-assets/Azure.jpg"
+                                    class="img-fluid rounded shadow-sm w-100 project-image"
+                                    alt="Azure Logo">
+                                <figcaption class="mt-2 text-light-emphasis">
+                                    Azure was the platform of choice thanks to thier generous nonprofit credits
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <figure class="text-center mb-0">
+                                <img src="../www-assets/cloudflare.webp"
+                                    class="img-fluid rounded shadow-sm w-100 project-image"
+                                    alt="Cloudflare Logo">
+                                <figcaption class="mt-2 text-light-emphasis">
+                                    Cloudflare is great and free!
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Images -->
+                    <p>
+                        This one was more of a personal project. I got tasked with building a custom web app to support online donations & issuing tax receipts for a nonprofit. 
+                        The driving force behind this was a need to modernize and make use of a digital system, instead of paper receipts vis snail mail. The other driving factor was cost.
+                        Fortunatley, most credit card proccesor are willing to offer discounts to nonprofits, so we are able to get a good rate that allows the convience of credit card donations for donors without losing too much overhead.
+                    </p>
+                    <p>
+                        This was a great project as I got to put to work my coding skills along with some of my sysadmin in terms of hosting a public facing web application.
+                        A big part of this is security, especially in todays world where WWW stand for "Wild Wild West"...
+                        <br>
+                        It involved a lot of testing to make sure every scenario was covered while making sure to write good documentation for future. The core functionality was handled
+                        by a third party software so most of the work was taking user input and crafting API calls. In terms of security it is always important with web forms to be careful about injection attacks, especially since it's going into a database.
+                        I was able to leverage some really cool WAF (Web Application Firewall) feature from Cloudflare to restrict access to the backend for added security.
+                        <br>
+                        Without giving too much away (Security by obscurity!), I'll share some of the tech used to build it.
+                    </p>
+                    <p><strong>Key Technologies Used:</strong></p>
+                    <ul>
+                        <li>PHP & MySQL for databases</li>
+                        <li>Azure platform for hosting (PaaS)</li>
+                        <li>Cloudflare for protection against DDOS, and WAF rules</li>
+                        <li>Integration with third party for payment proccessing</li>
+                        <li>Email notification service to donor and internally</li>
+                        <li>PDF tax receipt generation and storage in Azure blob</li>
+                        <li>Database backups into OneDrive using a custom script</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</footer>
+</html>

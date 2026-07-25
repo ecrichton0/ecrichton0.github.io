@@ -1,0 +1,73 @@
+:root {
+    --bs-body-bg: #000000;
+    --bs-body-color: #FFFFFF;
+}
+
+.bg-dark-custom {
+    background-color: #0f0f0f;
+}
+
+.bg-primary-custom {
+    background-color: #00426a;
+}
+
+.btn-primary {
+    background-color: #00426a;
+    border:none;
+}
+
+.btn-primary:hover {
+    background-color: #386C8C;
+}
+
+.btn-secondary {
+    background-color: #B5AA9D;
+    color:#000000;
+    border:none;
+}
+
+.btn-secondary:hover {
+    background-color: #7d766d;
+}
+
+.project-link {
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    transform: scale(1.08);
+}
+
+.links-move {
+    transition: transform 0.3s ease;
+}
+
+.links-move:hover {
+    transform: scale(1.15);
+}
+
+.btn-move {
+    transition: transform 0.3s ease;
+}
+
+.btn-move:hover {
+    transform: scale(1.15);
+}
+
+object.email {
+	height: 2em;
+	margin: -1em 0;
+	vertical-align: middle;
+}
+
+.project-image {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+figure figcaption {
+    font-size: 0.9rem;
+    color: #adb5bd;
+    line-height: 1.4;
+}

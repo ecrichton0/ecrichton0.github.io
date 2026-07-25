@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ewan Crichton</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/4df839a672.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col">
+                <div class="card bg-dark-custom rounded p-5">
+                    <!--Breadcrumb-->
+                    <div>
+                        <span class="fs-6 fs-md-5"><a href="../index.html#projects" class="text-white"><i class="fa-solid fa-arrow-left me-2"></i>Projects</a> / Embedded Control Platform</span>
+                    </div>
+                    <br>
+                    <!-- Images -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-12 col-md-4">
+                            <figure class="text-center mb-0">
+                                <img src="../www-assets/robot.jpg"
+                                    class="img-fluid rounded shadow-sm w-100 project-image"
+                                    alt="A picture of the finished robot platform">
+                                <figcaption class="mt-2 text-light-emphasis">
+                                    Completed robot platform.
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <figure class="text-center mb-0">
+                                <img src="../www-assets/robot2.jpg"
+                                    class="img-fluid rounded shadow-sm w-100 project-image"
+                                    alt="PCB Design">
+                                <figcaption class="mt-2 text-light-emphasis">
+                                    Had to make some changes after production due to a design error...
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <figure class="text-center mb-0">
+                                <img src="../www-assets/robot3.jpg"
+                                    class="img-fluid rounded shadow-sm w-100 project-image"
+                                    alt="Finished Assembly">
+                                <figcaption class="mt-2 text-light-emphasis">
+                                    SMD componenets were soldered using a reflow oven
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Images -->
+                    <p>
+                        This project was part of my Second year Engineering Projects course at Conestoga. The purpose behind htis was to design,
+                        from scratch, and industry ready embedded device platform. At it's core, it relies on an STM32 Nucleo Development board, which
+                        contains an ARM Cortex proccessor. The specific guidelines were to integrate with a pre-existing robot chassis, which had dual drive motors and
+                        a dual axis camera controled by a stepper & servo motor.
+                    </p>
+                    <p>
+                        This project provided some interesting challenges and learning experiences. Not only did we have to integrate with a pre-exisitng platform
+                        that someone else designed, but also had to meet certain form and function requirements, while on a strict 14 week timeline from initial design to manufacturing.
+                    </p>
+                    <p><strong>Some key aspects:</strong></p>
+                    <ul>
+                        <li>The platform had to meet the PC104 formfactor standard which provided great experience working with well known standard and learning to understand technical spec documents.</li>
+                        <li>At a minimum it had to include all the nessacary power supply's, motor driver circuits and communication facilites to support the drive motors, steppers & servos for camera control, and RS232 communication</li>
+                        <li>Modularity was key as future iterations may include more boards for other protocols, and integration with a Raspberry PI for remote control</li>
+                        <li>Not only did we have to complete hardware design, but have a successful control program written that allowed for testing of all the different functions</li>  
+                    </ul>
+                    <p><strong>Key Learnings:</strong></p>
+                    <ul>
+                        <li>Working with vendors can prove chellenging. Limited part availability along with set timelines for manufacturing meant it was a bit of crunch to deliver on time. This was a great way to apply our project management skills learned in a previous course</li>
+                        <li>More modularity is not always better. My desing had 4 boards which was great for organization but took up a lot more space and added signifigant cost to manufacturing.</li>
+                        <li>Prototyping is important and in future projects, it will be relaly benificial to get the parts first and test for functionality before having to assemble on the final PCB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</footer>
+</html>
