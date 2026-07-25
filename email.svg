@@ -1,0 +1,17 @@
+<svg viewBox="0 0 130 24" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+@import url(https://fonts.bunny.net/css?family=inter:400);
+
+text {
+	dominant-baseline: middle;
+	fill: #FFFFFF;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	text-anchor: middle;
+}
+</style>
+
+<text x="50%" y="50%">info@ecrichton.com</text>
+
+</svg>
